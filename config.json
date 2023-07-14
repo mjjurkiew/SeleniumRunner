@@ -1,0 +1,11 @@
+{
+  "chromeOptions": {
+    "add_argument": [
+      "--window-size=1920x1080",
+      "--headless",
+      "--no-sandbox",
+      "--disable-dev-shm-usage",
+      "no-sandbox"
+    ]
+  }
+}
