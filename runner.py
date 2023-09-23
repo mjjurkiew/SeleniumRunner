@@ -17,7 +17,7 @@ class ElementNotFound(Exception):
 class SeleniumRunner():
     """"""
     def __init__(self):
-        self.driver = Chrome(self.__get_chromedriver_path(), chrome_options=self.__load_options())
+        self.driver = Chrome(options=self.__load_options(), service=...)
 
     def __get_chromedriver_path(self) -> str:
         return json.load(open('config.json')).get('chromedriverPath')
